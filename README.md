@@ -12,8 +12,13 @@ Extension source code is **not** in this repo.
 2. Commit and push to `main`
 3. Users get the update within 24 hours (or sooner on the next failed read)
 
-## URL used by extensions
+## URLs
 
+**Selector config (extensions fetch automatically):**
 ```
 https://raw.githubusercontent.com/abaddion/linkedin-extension-config/main/selector-config.json
 ```
+
+**Privacy policies (Chrome Web Store / users):**
+- [LinkedIn Message Manager](https://github.com/abaddion/linkedin-extension-config/blob/main/privacy/linkedin-message-manager.md)
+- [LinkedIn Job Assistant](https://github.com/abaddion/linkedin-extension-config/blob/main/privacy/linkedin-job-assistant.md)
