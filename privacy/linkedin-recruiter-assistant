@@ -1,0 +1,58 @@
+# Privacy Policy for LinkedIn Recruiter Assistant
+
+Last updated: 13 November 2026
+
+## Introduction
+
+LinkedIn Recruiter Assistant is a browser extension that helps recruiters and hiring teams assess LinkedIn member profiles against a job description and draft outreach messages with AI assistance. We are committed to protecting your privacy.
+
+## Data collection and use
+
+Our extension:
+
+- Does **not** collect personal information on our servers
+- Does **not** store profile or message content on our servers
+- Does **not** track user behavior for advertising
+- Does **not** sell or share data with third parties
+
+Optional **local diagnostics** (off by default): if you enable “Store local diagnostic events” in Options, the extension saves URL path, selector strategy index, and element counts in Chrome local storage on your device only. No profile text or drafted message content is logged.
+
+## API key
+
+- You provide your own API key for **OpenAI**, **Google Gemini**, or **Anthropic** (your choice in Options)
+- The key is stored in Chrome sync/local storage on your device
+- Requests go from your browser directly to the provider you selected
+- We do not have access to your API key
+
+## Profile and recruitment assistance
+
+- Visible LinkedIn profile text is read from the page in your browser when you run match analysis or generate a message
+- The **job description** you enter is used with that profile text to build prompts
+- That content is sent to your chosen AI provider **only when you** trigger analysis or message generation, using your key
+- Nothing is sent to our servers
+- Generated analysis and drafts are shown in the sidebar; **you** copy text and send it on LinkedIn yourself—the extension does not send messages for you
+
+## Third-party services
+
+The extension may contact:
+
+- **OpenAI**, **Google Gemini**, or **Anthropic** APIs (your key, when you generate text)
+- **Google Fonts** / Adobe Fonts (UI styling in Options)
+- **raw.githubusercontent.com** (only if you set an optional remote selector config URL in Options)
+
+## Data storage
+
+Chrome storage is used for:
+
+- API key, provider and model choice, and sign-off name
+- Your last job description (saved locally for convenience)
+- Cached remote selector config (if you use a config URL)
+- Optional local diagnostic log (opt-in)
+
+## Changes
+
+We may update this policy. Changes will be posted in this file in the [GitHub repository](https://github.com/abaddion/linkedin-extension-config/tree/main/privacy).
+
+## Contact
+
+Questions: **barbora@recberry.com**
